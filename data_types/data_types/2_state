@@ -1,0 +1,27 @@
+//data types
+module two_state ;
+  bit a;
+  byte b;
+  int c;
+  shortint d;
+  longint e;
+  initial begin
+    $display("default value of bit=%d",a);
+    $display("default value of byte=%d",b);
+    $display("default value of int=%d",c);
+    $display("default value of shortint=%d",d);
+    $display("default value of longint=%d",e);
+    //initializing the values
+    a=1;
+    b=5;
+    c=6;
+    d=7;
+    e=2025;
+    $display("value of bit=%d",a);
+    $display(" value of byte=%d",b);
+    $display(" value of int=%d",c);
+    $display(" value of shortint=%d",d);
+    $display(" value of longint=%d",e);
+  end
+endmodule
+    
